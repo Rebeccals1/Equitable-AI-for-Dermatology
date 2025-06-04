@@ -1,6 +1,7 @@
-# Equitable-AI-for-Dermatology - Skin Lesion Classification with EfficientNetB4
-## Overview
+# Equitable-AI-for-Dermatology 
+### Skin Lesion Classification with EfficientNetB4
 
+## Overview
 This project uses **EfficientNetB4** to classify 20 types of medically annotated skin lesions. The goal is to aid in early and accurate diagnosis using deep learning techniques and high-resolution dermatoscopic images.
 
 ---
