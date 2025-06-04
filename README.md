@@ -82,32 +82,28 @@ This model forms a solid baseline for further improvements, clinical exploration
 
 ---
 
-## Getting Started
-### 1. Clone the Repository
+## Running the Notebook with Jupyter
+
+To explore or reproduce this project, use the provided notebook:
+
+📄 `T11_EfficientNet_v10_60Percent.ipynb`
+
+
+### 1. Install Jupyter (if not already installed)
+
 ```bash
-git clone https://github.com/your-username/skin-lesion-classifier.git
-cd skin-lesion-classifier
+pip install notebook
 ```
-### 2. Install Dependencies
+Or install all dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-### 3. Prepare the Dataset
-Organize your dataset into train/, val/, and test/ folders with subdirectories for each class:
-```bash
-dataset/
-├── train/
-│   ├── class_1/
-│   ├── class_2/
-│   └── ...
-├── val/
-└── test/
-```
-### 4. Train the Model
-Use the provided training notebook:
-```bash
-jupyter notebook notebooks/model_training.ipynb
-```
+### 3. Run the Notebook Cells
+- Run cells one by one using Shift + Enter
+- Ensure dataset paths and environment variables are set properly
+- The notebook handles preprocessing, model training, evaluation, and prediction steps
+
+You can also open the notebook directly in VS Code with the Jupyter extension, or upload it to Google Colab for GPU access.
 
 ---
 
