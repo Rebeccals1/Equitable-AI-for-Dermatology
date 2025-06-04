@@ -19,14 +19,34 @@ This project builds upon AJL’s mission and contributes to broader research eff
 
 ## Technologies Used
 
-This project was likely developed using the following tools and libraries:
+### Programming & Frameworks
+- **Python 3.10** – Core programming language
+- **Jupyter Notebook** – Interactive development environment
 
-* **Python:** The primary programming language for machine learning development.
-* **Jupyter Notebook:** Used for interactive development, analysis, and generating the report.
-* **EfficientNet:** The core neural network architecture utilized in the project.
-* **TensorFlow / PyTorch:** (Likely one of these) Popular deep learning frameworks for building and training the model.
+### Machine Learning & Deep Learning
+- **TensorFlow / Keras** – Model building and training
+- **EfficientNetB4** – Pretrained CNN used via transfer learning
+- **Scikit-learn** – Evaluation metrics, train/test split, class balancing
 
-### Model Architecture
+### Data Processing & Augmentation
+- **NumPy** – Numerical operations
+- **Pandas** – Data manipulation and loading
+- **OpenCV (cv2)** – Image processing
+- **imgaug** – Custom data augmentation pipelines
+
+### Evaluation & Visualization
+- **Matplotlib** – Data and model performance plotting
+- **Seaborn** – Heatmaps and statistical visualization
+- **Scikit-learn** – Classification reports, confusion matrix, F1 metrics
+- **Cohen’s Kappa** – Model agreement score
+
+### Version Control & Collaboration
+- **Git & GitHub** – Code management and collaboration
+- **Kaggle** – Competition platform and evaluation
+
+---
+
+## Model Architecture
 
 - **Base Model**: `EfficientNetB4` (pretrained on ImageNet)  
 - **Custom Layers**: GlobalAveragePooling2D → Dense(Softmax)  
