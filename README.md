@@ -2,7 +2,19 @@
 ### Skin Lesion Classification with EfficientNetB4
 
 ## Overview
-This project uses **EfficientNetB4** to classify 20 types of medically annotated skin lesions. The goal is to aid in early and accurate diagnosis using deep learning techniques and high-resolution dermatoscopic images.
+This project was developed as part of the **Spring 2025 Break Through Tech AI Studio** in collaboration with the **Algorithmic Justice League (AJL)**. Our goal was to build a machine learning model that promotes fairness in dermatology — a field where AI systems often underperform for people with darker skin tones due to biased or incomplete training data.
+
+Our team, UCLA AJL Team11, participated in a Kaggle competition where model submissions were evaluated using a **weighted F1 score**, accounting for class imbalance and diagnostic complexity. This model represents my contribution, which helped us score 4th place out of the 15 UCLA-affiliated teams in the Kaggle competition.
+
+### Background: Algorithmic Justice League (AJL)
+
+AJL combines art and research to expose the harms of AI systems that reinforce racism, sexism, ableism, and other forms of discrimination. Their mission is to:
+
+- Raise awareness about the social impact of AI
+- Equip communities and researchers to resist bias
+- Advocate for equitable, transparent, and accountable AI systems
+
+This project builds upon AJL’s mission and contributes to broader research efforts on **fair AI in dermatology**, including work by Stanford and the MIT Media Lab.
 
 ---
 
