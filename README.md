@@ -61,7 +61,6 @@ This project builds upon AJL’s mission and contributes to broader research eff
 
 The model demonstrates strong classification capabilities across a variety of skin conditions. Below is a breakdown of performance using F1-score, a balance between precision and recall.
 
----
 
 ### Overall Averages
 
@@ -71,7 +70,6 @@ The model demonstrates strong classification capabilities across a variety of sk
 - **Micro F1-Score**: `0.62`  
   (Weighted by class frequency, reflects overall performance)
 
----
 
 ### Top 3 Performing Classes (by F1-Score)
 
@@ -83,7 +81,6 @@ The model demonstrates strong classification capabilities across a variety of sk
 
 These classes showed high precision and recall, making them the most accurately predicted.
 
----
 
 ### Bottom 3 Performing Classes (by F1-Score)
 
