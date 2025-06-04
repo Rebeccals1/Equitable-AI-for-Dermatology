@@ -1,4 +1,4 @@
-# Equitable-AI-for-Dermatology, Skin Lesion Classification with EfficientNetB4
+# Equitable AI for Dermatology, Skin Lesion Classification with EfficientNetB4
 
 ## Overview
 This project was developed as part of the **Spring 2025 Break Through Tech AI Studio** in collaboration with the **Algorithmic Justice League (AJL)**. Our goal was to build a machine learning model that promotes fairness in dermatology — a field where AI systems often underperform for people with darker skin tones due to biased or incomplete training data.
